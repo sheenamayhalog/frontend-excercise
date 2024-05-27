@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.search-section {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.search-section .form-control {
+  max-width: 350px;
+}
+
+.infinite-scroll-component {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
